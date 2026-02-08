@@ -704,13 +704,7 @@ export default function App() {
                  </div>
                  </div>
               ) : null}
-
-
-              {followupQ ? (
-                <div className="mt-3 text-sm opacity-75 whitespace-pre-wrap">
-                  我想确认一句：{followupQ}
-                </div>
-              ) : null}
+              
             </div>
 
             {/* B) 回复建议（只露A/B，C默认折叠） */}
